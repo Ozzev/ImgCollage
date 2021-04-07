@@ -1,8 +1,8 @@
 from PIL import Image, ImageDraw
 import numpy as np
 
-res = 50
-scale = 5
+res = 50 # square root of total number of little images 
+scale = 5 # scale of final image
 
 img = Image.open('img.png')
 width, height = img.size
